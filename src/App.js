@@ -17,8 +17,7 @@ class App extends Component {
         const postList = posts.data.children;
         let data = postList.map((post) => {
           console.log(post.data)
-          if (post.data.over_18 == false) {
-            const tn = post.data.preview.images[0].source.url ? post.data.preview.images[0].source.url : post.data.thumbnail;
+          if (post.data.over_18 === false) {
             return (
               <div className="post" key={post.data.id}>
                 <a href={post.data.url} target="_blank">
