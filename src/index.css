@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.post {
+  display: inline-block;
+}
+.thumbnail {
+  display: inline-block;
+  height: 300px;
+}
